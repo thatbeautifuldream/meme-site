@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>It's meme time!</title>
+    <link rel="icon" href="meme.png" type="image/icon type" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <div class="container_fluid p-5 bg-light text-center my-3">
+      <h1>Meme Browser 🥳</h1>
+      <h5 class="text-muted">
+        Open Source Project for browsing classic reddit memes.
+      </h5>
+    </div>
+    <div class="container">
+      <div class="text-center">
+        <button type="button" class="btn btn-primary" onClick="loadMemes()">
+          Fetch Meme!
+        </button>
+      </div>
+      <div class="text-center my-4">
+        <img
+          src="https://dummyimage.com/300x300"
+          class="rounded"
+          id="meme"
+          alt="..."
+        />
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

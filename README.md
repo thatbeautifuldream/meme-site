@@ -2,4 +2,4 @@
 
 Meme Browser in action:
 
-![It's Meme Time!](play.gif)
+![It's Meme Time!](pp.gif)

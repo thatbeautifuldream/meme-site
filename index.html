@@ -12,7 +12,7 @@
     />
   </head>
   <body>
-    <div class="container_fluid p-4  bg-light text-center my-3">
+    <div class="container_fluid p-4 bg-light text-center my-3">
       <h1>Meme Browser 🥳</h1>
       <h5 class="text-muted">
         Open Source Project for browsing classic reddit memes.
@@ -25,19 +25,13 @@
           class="btn btn-primary mx-1"
           onClick="loadMemes()"
         >
-          Click Me!
+          Get Meme
         </button>
-        <button
-          href=""
-          id="save-btn"
-          download
-          onClick="savaMeme()"
-          class="btn btn-primary"
-          role="button"
-        >
-          ⬇️&nbsp Save
+        <button href="#" id="save-btn" class="btn btn-primary"  role="button">
+          Download Meme
         </button>
       </div>
+      <!-- meme display section starts -->
       <div class="text-center my-3">
         <img
           src="https://dummyimage.com/300x300"
@@ -46,8 +40,9 @@
           alt="..."
         />
       </div>
+      <!-- meme display section ends -->
     </div>
-
+    <!-- footer section starts -->
     <div class="footer-margin fixed-bottom">
       <footer
         class="
@@ -68,6 +63,8 @@
         >
       </footer>
     </div>
+    <!-- footer section ends -->
+    <script src="FileSaver.min.js"></script>
     <script src="script.js"></script>
   </body>
 </html>
